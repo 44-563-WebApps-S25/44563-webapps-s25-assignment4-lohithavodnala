@@ -1,0 +1,43 @@
+/* General Style for Speech */
+.speech {
+    font-family: 'Times New Roman', serif;
+    font-size: 18px;
+    color: black;
+}
+
+/* General Style for Stage Directions */
+.stage-direction {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    background-color: #f4f4f4;  /* Light background for stage directions */
+    padding: 5px;
+}
+
+/* Hover effect for Stage Directions */
+.stage-direction:hover {
+    background-color: #d1d1d1;  /* Darker background on hover */
+    color: #333;  /* Darker text color on hover */
+}
+
+/* Style for Character Names */
+.name {
+    font-family: 'Georgia', serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: darkblue;
+}
+
+/* IMOGEN's Specific Style */
+.imogen {
+    color: darkorange;  /* Color for IMOGEN */
+}
+
+/* PISANIO's Specific Style */
+.pisanio {
+    color: darkgreen;  /* Color for PISANIO */
+}
+
+/* IACHIMO's Specific Style */
+.iachimo {
+    color: darkred;  /* Color for IACHIMO */
+}
