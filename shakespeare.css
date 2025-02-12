@@ -41,4 +41,41 @@
 .iachimo {
     color: darkred;  /* Color for IACHIMO */
 }
+/* Style for the table */
+.cast-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Table borders */
+.cast-table, .cast-table th, .cast-table td {
+    border: 1px solid black;
+}
+
+/* Header row */
+.cast-table th {
+    background-color: #333;
+    color: white;
+    text-align: left;
+    padding: 10px;
+}
+
+/* Table cells */
+.cast-table td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Row striping */
+.cast-table tr:nth-child(even) {
+    background-color: #ddd;
+}
+
+/* Row hover effect */
+.cast-table tr:hover {
+    background-color: #ccc;
+    transition: 0.3s;
+}
 
