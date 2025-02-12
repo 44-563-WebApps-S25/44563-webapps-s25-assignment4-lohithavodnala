@@ -79,3 +79,10 @@
     transition: 0.3s;
 }
 
+.name:hover {
+    text-shadow: 3px 3px 10px rgba(255, 0, 0, 0.7); /* Red glow effect */
+    border: 2px solid #ff0000; /* Red border */
+    padding: 5px;
+    transition: 0.3s ease-in-out;
+}
+
